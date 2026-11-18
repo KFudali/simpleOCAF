@@ -11,8 +11,6 @@
 #include <memory>
 
 #include "AbstractMeshEngine.hpp"
-#include "SurfaceMesh.hpp"
-#include "VolumeMesh.hpp"
 
 class MeshPreprocessor;
 class MeshPostprocessor;

@@ -8,7 +8,7 @@
 #include <XCAFApp_Application.hxx>
 #include <XmlXCAFDrivers.hxx>
 
-#include <XCAFDoc_DocumentTOol.hxx>
+#include <XCAFDoc_DocumentTool.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 

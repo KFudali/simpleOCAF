@@ -4,7 +4,7 @@ add_subdirectory(GeometryCore)
 add_subdirectory(MeshCore)
 
 add_executable(itAll
-    itRun.cpp
+    RunTest.cpp
 )
 
 target_link_libraries(itAll PRIVATE

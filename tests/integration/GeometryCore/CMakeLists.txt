@@ -10,7 +10,7 @@ target_include_directories(itGeometryCore INTERFACE
 )
 
 add_executable(itGeometryCoreRun
-    itRunGeometryCore.cpp
+    RunGeometryCoreTest.cpp
 )
 target_link_libraries(itGeometryCoreRun
     PRIVATE itGeometryCore

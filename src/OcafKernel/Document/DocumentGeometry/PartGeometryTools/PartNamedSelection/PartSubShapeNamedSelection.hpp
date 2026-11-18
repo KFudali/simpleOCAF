@@ -3,6 +3,7 @@
 
 #include "PartSubShapeSelectionBase.hpp"
 #include "NamedRefTreeLabel.hpp"
+#include <TDF_LabelSequence.hxx>
 
 class PartSubShapeNamedSelection : public PartSubShapeSelectionBase {
 public:

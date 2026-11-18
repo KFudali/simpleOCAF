@@ -9,6 +9,7 @@
 #include <vtkCellType.h>
 #include <array>
 #include <stdexcept>
+#include <ranges>
 
 using ELEMENT_TYPE = netgen::ELEMENT_TYPE;
 constexpr std::array<std::pair<ELEMENT_TYPE, unsigned char>, 18> ElementToVTKMap {{

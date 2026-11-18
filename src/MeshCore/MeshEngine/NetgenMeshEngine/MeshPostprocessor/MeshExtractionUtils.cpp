@@ -5,6 +5,7 @@
 #include <vtkSmartPointer.h>
 #include <vtkIdTypeArray.h>
 #include <vtkCellArray.h>
+#include <ranges>
 
 vtkSmartPointer<vtkPoints> MeshExtractionUtils::extractPoints(
     std::shared_ptr<netgen::Mesh> mesh

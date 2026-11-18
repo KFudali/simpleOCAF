@@ -16,7 +16,7 @@ target_compile_definitions(utMeshCore INTERFACE
 )
 
 add_executable(utMeshCoreRun
-    utRunMeshCore.cpp
+    RunMeshCoreTest.cpp
 )
 target_link_libraries(utMeshCoreRun
     PRIVATE utMeshCore

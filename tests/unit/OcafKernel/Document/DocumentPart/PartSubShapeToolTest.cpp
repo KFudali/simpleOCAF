@@ -9,6 +9,7 @@
 #include <XCAFDoc_ShapeTool.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopExp.hxx>
+#include <TDF_LabelSequence.hxx>
 
 class PartSubShapeToolTest : public DocumentGeometryFixture {
 protected:

@@ -1,7 +1,7 @@
-add_subdirectory(Events)
-add_subdirectory(Transfer)
-add_subdirectory(MeshEngine)
-add_subdirectory(MeshObject)
+# add_subdirectory(Events)
+# add_subdirectory(Transfer)
+# add_subdirectory(MeshEngine)
+# add_subdirectory(MeshObject)
 
 add_library(MeshCore
     MeshCore.cpp

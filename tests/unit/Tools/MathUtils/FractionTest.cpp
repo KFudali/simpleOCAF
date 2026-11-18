@@ -17,8 +17,8 @@ TEST(FractionTest, ConstructionAndClamp) {
     EXPECT_FLOAT_EQ(f4.value(), 1.0f);
     EXPECT_TRUE(f4.isOne());
 
-    EXPECT_THROW(Fraction(NAN), std::invalid_argument);
-    EXPECT_THROW(Fraction(INFINITY), std::invalid_argument);
+    EXPECT_THROW(Fraction{NAN}, std::invalid_argument);
+    EXPECT_THROW(Fraction{INFINITY}, std::invalid_argument);
 }
 
 TEST(FractionTest, Set) {
