@@ -1,4 +1,4 @@
-collect_unit_test_sources(${CMAKE_CURRENT_SOURCE_DIR} utMathUtilsSources)
+collect_test_sources(${CMAKE_CURRENT_SOURCE_DIR} utMathUtilsSources)
 
 add_library(utMathUtils INTERFACE)
 

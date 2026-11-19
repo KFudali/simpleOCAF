@@ -1,4 +1,5 @@
 #include "OcafKernel.hpp"
+
 #include "SignalMessageBus.hpp"
 
 OcafKernel::OcafKernel() {
@@ -9,5 +10,5 @@ OcafKernel::OcafKernel() {
     mMessageSubscriber = std::make_unique<MessageSubscriber>(*mMessageBus);
 
     mDeltaObservers = std::make_unique<DeltaObservers>(*mMessageBus);
-    mCommandStack->appendDeltaObserver(mDeltaObservers->geometry());    
+    mCommandStack->appendDeltaObserver(mDeltaObservers->geometry());
 }

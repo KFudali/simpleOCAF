@@ -1,4 +1,4 @@
-add_ut_library(utDocumentGeometry
+add_test_library(utDocumentGeometry
     SOURCE_DIRS
         ${CMAKE_CURRENT_SOURCE_DIR}
         ${CMAKE_CURRENT_SOURCE_DIR}/PartGeometryTools

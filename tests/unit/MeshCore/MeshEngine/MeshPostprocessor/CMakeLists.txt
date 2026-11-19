@@ -1,7 +1,7 @@
-collect_unit_test_sources(${CMAKE_CURRENT_SOURCE_DIR} utMeshPostprocessorSources)
+collect_test_sources(${CMAKE_CURRENT_SOURCE_DIR} utMeshPostprocessorSources)
 
 add_library(utMeshPostprocessor INTERFACE)
-target_sources(utMeshPostprocessor INTERFACE 
+target_sources(utMeshPostprocessor INTERFACE
     ${utMeshPostprocessorSources}
 )
 

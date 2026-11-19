@@ -1,4 +1,4 @@
-add_ut_library(utDocumentPart
+add_test_library(utDocumentPart
     SOURCE_DIRS
         ${CMAKE_CURRENT_SOURCE_DIR}
     LINK_LIBS
