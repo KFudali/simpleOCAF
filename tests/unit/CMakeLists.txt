@@ -3,7 +3,7 @@ add_subdirectory(MeshCore)
 add_subdirectory(Tools)
 
 add_executable(utAll
-    utRun.cpp
+    RunTest.cpp
 )
 
 target_link_libraries(utAll PRIVATE

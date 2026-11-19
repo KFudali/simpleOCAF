@@ -1,4 +1,5 @@
 #include "ShapeRegistry.hpp"
+#include <TDF_LabelSequence.hxx>
 
 ShapeRegistry::ShapeRegistry(Handle(TDocStd_Document) aDoc) : mDoc(aDoc) {
     mShapeTool = XCAFDoc_DocumentTool::ShapeTool(mDoc->Main());

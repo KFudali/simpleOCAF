@@ -10,7 +10,7 @@ target_link_directories(itMeshCore
 )
 
 add_executable(itMeshCoreRun
-    itRunMeshCore.cpp
+    RunMeshCoreTest.cpp
 )
 target_link_libraries(itMeshCoreRun
     PRIVATE itMeshCore

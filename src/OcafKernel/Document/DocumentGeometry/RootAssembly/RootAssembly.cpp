@@ -3,6 +3,7 @@
 
 #include "DocLabelUtils.hpp"
 #include "RootAssemblyMarkerAttribute.hpp"
+#include <TDF_LabelSequence.hxx>
 
 RootAssembly::RootAssembly(Handle(TDocStd_Document) aDoc)
  :  mDoc(aDoc),

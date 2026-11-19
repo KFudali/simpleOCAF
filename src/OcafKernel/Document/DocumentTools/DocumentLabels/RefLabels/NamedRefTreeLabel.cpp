@@ -4,6 +4,7 @@
 #include <TDF_Label.hxx>
 #include <unordered_set>
 #include <stdexcept>
+#include <TDF_LabelSequence.hxx>
 
 NamedRefTreeLabel::NamedRefTreeLabel(
     const TDF_Label& aParentLabel,

@@ -4,6 +4,8 @@
 
 #include <XCAFDoc_DocumentTool.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
+#include <TDF_LabelSequence.hxx>
+#include <ranges>
 
 PartAssemblyTool::PartAssemblyTool(const PartLabel& aPartLabel)
   : mPartLabel(aPartLabel),

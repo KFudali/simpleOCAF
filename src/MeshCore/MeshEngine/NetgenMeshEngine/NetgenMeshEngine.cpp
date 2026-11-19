@@ -4,7 +4,6 @@
 #include "MeshPostprocessor.hpp"
 #include "MeshingLauncher.hpp"
 #include "DomainRegistry.hpp"
-#include "NetgenToVTK.hpp"
 
 
 bool NetgenMeshEngine::generateSurfaceMesh(MeshObject& aMeshObject) const {

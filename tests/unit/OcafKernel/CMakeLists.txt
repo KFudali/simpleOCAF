@@ -17,7 +17,7 @@ target_compile_definitions(utOcafKernel INTERFACE
 )
 
 add_executable(utOcafKernelRun
-    utRunOcafKernel.cpp
+    RunOcafKernelTest.cpp
 )
 target_link_libraries(utOcafKernelRun 
     PRIVATE utOcafKernel

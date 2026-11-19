@@ -6,6 +6,7 @@
 #include <TopExp.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopoDS_Shape.hxx>
+#include <TDF_LabelSequence.hxx>
 
 PartSubShapeTool::PartSubShapeTool(const PartLabel& aPartLabel)
     : mPartLabel(aPartLabel), 

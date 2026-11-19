@@ -5,6 +5,7 @@
 #include <vtkType.h>
 #include <vtkIdTypeArray.h>
 #include <vtkPolyData.h>
+#include <ranges>
 
 SurfaceConnectivity SurfaceExtraction::extractSurfaceConn(
     const Elem2DContainer& elems,

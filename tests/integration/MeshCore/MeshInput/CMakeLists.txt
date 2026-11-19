@@ -1,4 +1,4 @@
-add_it_library(itMeshInput
+add_test_library(itMeshInput
     SOURCE_DIRS
         ${CMAKE_CURRENT_SOURCE_DIR}
     LINK_LIBS

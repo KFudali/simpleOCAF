@@ -4,7 +4,7 @@
 #include "Shape.hpp"
 #include "Dim.hpp"
 #include "DomainId.hpp"
-#include "SubSHapeDomain.hpp"
+#include "SubShapeDomain.hpp"
 #include "PartSubShapeNamedSelection.hpp"
 
 class ShapeDomainDescription {

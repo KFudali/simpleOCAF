@@ -4,6 +4,7 @@
 #include <TDF_Attribute.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Reference.hxx>
+#include <TDF_LabelSequence.hxx>
 
 RefTreeLabel::RefTreeLabel(
     const TDF_Label& aParentLabel,

@@ -19,7 +19,7 @@ target_compile_definitions(utTools INTERFACE
 )
 
 add_executable(utToolsRun
-    utRunTools.cpp
+    RunToolsTest.cpp
 )
 
 target_link_libraries(utToolsRun PRIVATE

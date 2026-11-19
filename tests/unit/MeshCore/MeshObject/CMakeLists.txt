@@ -1,7 +1,7 @@
-collect_unit_test_sources(${CMAKE_CURRENT_SOURCE_DIR} utMeshObjectSources)
+collect_test_sources(${CMAKE_CURRENT_SOURCE_DIR} utMeshObjectSources)
 
 add_library(utMeshObject INTERFACE)
-target_sources(utMeshObject INTERFACE 
+target_sources(utMeshObject INTERFACE
     ${utMeshObjectSources}
 )
 
