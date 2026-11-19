@@ -1,4 +1,3 @@
 /build
 /.vscode
-/src/MGTMeshCore/
-CmakeUserPresets.json
+CMakeUserPresets.json
